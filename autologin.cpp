@@ -119,7 +119,7 @@ void HelpScreen() {
 	cout << "Welcome to the Help Screen!" <<endl;
 	cout << "Press C to Login to the Game" << endl;
 }
-void WaitForInput() {//fix
+void WaitForInput() {
 	while (true) {
 		if (GetAsyncKeyState(0x45)) {
 			Sleep(1000);
